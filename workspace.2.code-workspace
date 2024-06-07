@@ -1,0 +1,10 @@
+{
+    "folders": [
+        {
+            "path": "IDEAL_RGA_PROCESS"
+        }
+    ],
+    "settings": {
+        "SAP HANA Project Explorer.bind.confirm automatic undeployment": false
+    }
+}
