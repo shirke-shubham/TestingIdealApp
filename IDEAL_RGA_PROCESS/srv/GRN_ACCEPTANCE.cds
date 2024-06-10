@@ -4,7 +4,7 @@ using {DEALER_PORTAL_MASTER as DPMaster} from '../db/MasterTables';
 
 service IDEAL_GRN_ACCEPTANCE {
 
-
+  // Header Table
     entity Grn_Header        as projection on DPPortal.GRN_HEADER;
     entity Grn_Items         as projection on DPPortal.GRN_ITEMS;
     entity Grn_Event_Logs    as projection on DPPortal.GRN_EVENT_LOGS;
@@ -14,3 +14,4 @@ service IDEAL_GRN_ACCEPTANCE {
     action grnAccept( action : String, appType : String, grnHeader : many Grn_Header, grnItems :many Grn_Items, grnEvent : many Grn_Event_Logs ) returns String;
     action updateGrnPrice( appType : String, updPriceDetails : many Grn_Stock) returns String; 
 }
+ 
