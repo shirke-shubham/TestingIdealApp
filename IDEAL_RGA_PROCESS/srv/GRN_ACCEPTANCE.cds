@@ -4,7 +4,7 @@ using {DEALER_PORTAL_MASTER as DPMaster} from '../db/MasterTables';
 
 service IDEAL_GRN_ACCEPTANCE {
  
-  // Header Table..    
+  // Header Table..     
     entity Grn_Header        as projection on DPPortal.GRN_HEADER;
     entity Grn_Items         as projection on DPPortal.GRN_ITEMS;
     entity Grn_Event_Logs    as projection on DPPortal.GRN_EVENT_LOGS;
