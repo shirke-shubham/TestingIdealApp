@@ -14,4 +14,4 @@ service IDEAL_GRN_ACCEPTANCE {
     action grnAccept( action : String, appType : String, grnHeader : many Grn_Header, grnItems :many Grn_Items, grnEvent : many Grn_Event_Logs ) returns String;
     action updateGrnPrice( appType : String, updPriceDetails : many Grn_Stock) returns String; 
 }
-   
+    
