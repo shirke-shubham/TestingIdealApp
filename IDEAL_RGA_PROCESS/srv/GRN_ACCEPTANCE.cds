@@ -1,7 +1,7 @@
 using {DEALER_PORTAL as DPPortal} from '../db/TransactionTables';
 using {DEALER_PORTAL_MASTER as DPMaster} from '../db/MasterTables';
 
-
+ 
 service IDEAL_GRN_ACCEPTANCE {
  
   // Header Table..       
